@@ -8,7 +8,7 @@ Ein moderner Taschenrechner mit PHP-Backend und Unit-Tests.
 
 ---
 
-## 📋 Übersicht  
+## Übersicht  
 Dieses Projekt umfasst einen webbasierten Taschenrechner, der folgende Funktionen unterstützt:  
 - **Grundlegende Operationen**: Addition, Subtraktion, Multiplikation, Division.  
 - **Fehlerbehandlung**: Auslösen von Exceptions bei Division durch Null.  
@@ -17,7 +17,7 @@ Dieses Projekt umfasst einen webbasierten Taschenrechner, der folgende Funktione
 
 ---
 
-## 🛠️ Technische Highlights  
+## Technische Highlights  
 - **PSR-4 Autoloading**: Strukturierte Namespaces für bessere Wartbarkeit.  
 - **PHPUnit-Integration**: Tests können via Composer ausgeführt werden.  
 - **Strikte Typisierung**: PHP 7.4+ mit `strict_types=1`.  
@@ -25,7 +25,7 @@ Dieses Projekt umfasst einen webbasierten Taschenrechner, der folgende Funktione
 
 ---
 
-## 🚀 Installation  
+## Installation  
 1. **Repository klonen**:  
    ```bash  
    git clone https://github.com/dein-repository.git  
@@ -37,7 +37,7 @@ Dieses Projekt umfasst einen webbasierten Taschenrechner, der folgende Funktione
 
 ---
 
-## 🧪 Tests ausführen  
+## Tests ausführen  
 ```bash  
 composer test  
 ```  
@@ -51,13 +51,13 @@ composer test
 ```  
 ---
 
-## 🎨 Design-Features  
+## Design-Features  
 - **Responsive Layout**: Optimiert für alle Bildschirmgrößen.  
 - **CSS-Animationen**: Sanfte Übergänge und Fade-Effekte.  
 - **Branding**: CHECK24-Logo und Signatur des Autors.  
 
 ---
 
-## 🔧 Fehlerbehebung  
+## Fehlerbehebung  
 - **"Division by zero"**: Wird als Fehler angezeigt, falls Benutzer versucht, durch Null zu teilen.  
 - **Unit-Test-Fehler**: Stellen Sie sicher, dass alle Abhängigkeiten mit `composer install` installiert sind.  
