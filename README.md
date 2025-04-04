@@ -1,12 +1,5 @@
 # CHECH24
 ```markdown
-# CHECK24 Taschenrechner  
-
-![CHECK24 Logo](assets/CHECK24_Logo.png)  
-
-Ein moderner Taschenrechner mit PHP-Backend und Unit-Tests.  
-
----
 
 ## Übersicht  
 Dieses Projekt umfasst einen webbasierten Taschenrechner, der folgende Funktionen unterstützt:  
