@@ -1,0 +1,24 @@
+{
+    "name": "azubi/test",
+    "autoload": {
+        "psr-4": {
+            "Azubi\\": "Azubi/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "scripts": {
+        "test": "phpunit --testdox tests"
+    },
+    "authors": [
+        {
+            "name": "Ringo Lewandrowski",
+            "email": "ringo.lewandrowski@check24.de"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Logo Header -->
+<header class="header">
+    <img src="assets/CHECK24_Logo.png" alt="CHECK24 Logo" class="logo">
+</header>
+
+<!-- Calculator Section -->
+<div class="calculator">
+    <h1>Calculator</h1>
+
+    <!-- Form to enter values and select operation -->
+    <form method="get" action="calculator.php" target="_blank" id="calcForm">
+        <label for="value1">Value 1:</label>
+        <input type="number" step="any" name="value1" id="value1" required>
+
+        <label for="operation">Operation:</label>
+        <select name="operation" id="operation" required>
+            <option value="add">Add</option>
+            <option value="subtract">Subtract</option>
+            <option value="multiply">Multiply</option>
+            <option value="divide">Divide</option>
+        </select>
+
+        <label for="value2">Value 2:</label>
+        <input type="number" step="any" name="value2" id="value2" required>
+
+        <input type="submit" value="Calculate">
+    </form>
+</div>
+
+<!-- Author Signature -->
+<footer class="signature">
+    Nurlan Yunusov
+</footer>
+
+</body>
+</html>
